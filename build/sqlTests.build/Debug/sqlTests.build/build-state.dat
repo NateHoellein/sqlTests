@@ -1,0 +1,203 @@
+TsqlTests
+v7
+r0
+t321556211.776332
+cCheck dependencies
+cCompileC build/sqlTests.build/Debug/sqlTests.build/Objects-normal/i386/main.o /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/standards.h
+c000000004BBD2CE9000000000000055B
+t1270689001
+s1371
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004BBD2CE90000000000001731
+t1270689001
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004C2399480000000000002905
+t1277401416
+s10501
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/libmysqlclient.a
+c000000004D7446C00000000000863F28
+t1299465920
+s8797992
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests
+t1299863316
+s14604
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/Objects-normal/i386/main.o
+t1299863316
+s16104
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/Objects-normal/i386/sqlTests.LinkFileList
+c000000004D7A4CD90000000000000090
+t1299860697
+s144
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/Objects-normal/x86_64/main.o
+t1299775761
+s10152
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/Objects-normal/x86_64/sqlTests.LinkFileList
+c000000004D7900C60000000000000092
+t1299775686
+s146
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/StaticAnalyzer/normal/i386/main.plist
+t1299776551
+s276
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/StaticAnalyzer/normal/x86_64/main.plist
+t1299775761
+s276
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/errmsg.h
+c000000004D7A29900000000000000FC6
+t1299851664
+s4038
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/libmysqlclient.a
+c000000004D7446C00000000000863F28
+t1299465920
+s8797992
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c
+c000000004D7A56EE0000000000001574
+t1299863278
+s5492
+i<stdio.h>
+i"mysql.h"
+i"errmsg.h"
+i<string.h>
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/my_alloc.h
+c000000004D743BB60000000000000753
+t1299463094
+s1875
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/my_list.h
+c000000004D743B2500000000000005B1
+t1299462949
+s1457
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/mysql.h
+c000000004D7434080000000000006DB9
+t1299461128
+s28089
+i<standards.h>
+i<sys/types.h>
+i<winsock2.h>
+i"mysql_version.h"
+i"mysql_com.h"
+i"mysql_time.h"
+i"my_list.h"
+i"typelib.h"
+i"my_alloc.h"
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/mysql_com.h
+c000000004D743AF3000000000000564E
+t1299462899
+s22094
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/mysql_time.h
+c000000004D743B020000000000000831
+t1299462914
+s2097
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/mysql_version.h
+c000000004D743AE00000000000000333
+t1299462880
+s819
+i<custom_conf.h>
+
+N/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/typelib.h
+c000000004D743B530000000000000706
+t1299462995
+s1798
+i"my_alloc.h"
+
+CAnalyze /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c
+s321469351.886082
+e321469351.912832
+r1
+xAnalyze
+x/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c
+lSLF07#2@89"Analyze /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c321469351#321469351#0(0"0(0#0#81"/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c8612804736#1759"    cd /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-generated-files.hmap -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-own-target-headers.hmap -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-all-target-headers.hmap -iquote /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-project-headers.hmap -F/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/include -I/usr/local/mysql/include -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/DerivedSources/i386 -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/DerivedSources --analyze /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c -o /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321556211#321556211#0(0"0(0#1#0"8614792832#0"0#
+
+CCompileC build/sqlTests.build/Debug/sqlTests.build/Objects-normal/i386/main.o /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c normal i386 c com.apple.compilers.gcc.4_2
+s321556116.271301
+e321556116.322883
+r1
+xCompileC
+xbuild/sqlTests.build/Debug/sqlTests.build/Objects-normal/i386/main.o
+x/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c321556116#321556116#0(0"0(0#0#81"/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c8615311872#1705"    cd /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-generated-files.hmap -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-own-target-headers.hmap -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-all-target-headers.hmap -iquote /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-project-headers.hmap -F/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/include -I/usr/local/mysql/include -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/DerivedSources/i386 -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/DerivedSources -c /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c -o /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/Objects-normal/i386/main.o0#
+
+CCompileC build/sqlTests.build/Debug/sqlTests.build/Objects-normal/x86_64/main.o /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s321468561.636957
+e321468561.646060
+r1
+xCompileC
+xbuild/sqlTests.build/Debug/sqlTests.build/Objects-normal/x86_64/main.o
+x/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c321468561#321468561#0(0"0(0#0#81"/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c8611192096#1711"    cd /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-generated-files.hmap -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-own-target-headers.hmap -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-all-target-headers.hmap -iquote /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/sqlTests-project-headers.hmap -F/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/include -I/usr/local/mysql/include -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/DerivedSources/x86_64 -I/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/DerivedSources -c /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/main.c -o /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests normal i386
+s321556116.322978
+e321556116.344717
+r1
+xLd
+x/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests
+xnormal
+xi386
+lSLF07#2@100"Link /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests321556116#321556116#0(0"0(0#0#0"8615264992#908"    cd /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug -L/usr/local/mysql/lib -L/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/.. -L/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests -F/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug -filelist /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/Objects-normal/i386/sqlTests.LinkFileList -mmacosx-version-min=10.6 -lmysqlclient -lm -lz -lmysqlclient -lmysqlclient -o /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests0#
+
+CLd /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests normal x86_64
+s321468561.646132
+e321468561.677858
+r0
+xLd
+x/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests
+xnormal
+xx86_64
+old: warning: in /usr/local/mysql/lib/libmysqlclient.dylib, file was built for i386 which is not the architecture being linked (x86_64)
+oUndefined symbols:
+o  "_mysql_options", referenced from:
+o      _main in main.o
+o  "_mysql_init", referenced from:
+o      _main in main.o
+o  "_mysql_real_connect", referenced from:
+o      _main in main.o
+o  "_mysql_error", referenced from:
+o      _main in main.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@100"Link /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests321468561#321468561#0(450"ld: warning: in /usr/local/mysql/lib/libmysqlclient.dylib, file was built for i386 which is not the architecture being linked (x86_64)Undefined symbols:  "_mysql_options", referenced from:      _main in main.o  "_mysql_init", referenced from:      _main in main.o  "_mysql_real_connect", referenced from:      _main in main.o  "_mysql_error", referenced from:      _main in main.old: symbol(s) not foundcollect2: ld returned 1 exit status11(22@121"In /usr/local/mysql/lib/libmysqlclient.dylib, file was built for i386 which is not the architecture being linked (x86_64)321468561#0#135#0(6@0"321468561#0#0#0#0#0"0(4@34""_mysql_options", referenced from:321468561#154#37#0(6@0"321468561#0#0#0#0#0"0(13@15"_main in main.o321468561#191#22#0(6@0"321468561#0#0#0#0#0"0(4@31""_mysql_init", referenced from:321468561#213#34#0(6@0"321468561#0#0#0#0#0"0(13@15"_main in main.o321468561#247#22#0(6@0"321468561#0#0#0#0#0"0(4@39""_mysql_real_connect", referenced from:321468561#269#42#0(6@0"321468561#0#0#0#0#0"0(13@15"_main in main.o321468561#311#22#0(6@0"321468561#0#0#0#0#0"0(4@32""_mysql_error", referenced from:321468561#333#35#0(6@0"321468561#0#0#0#0#0"0(13@15"_main in main.o321468561#368#22#0(6@0"321468561#0#0#0#0#0"0(13@19"Symbol(s) not found321468561#390#24#0(6@0"321468561#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status321468561#414#36#0(6@0"321468561#0#0#0#0#0"0(0#0#0"8611672640#912"    cd /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug -L/usr/local/mysql/lib -L/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/.. -L/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests -F/Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug -filelist /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/sqlTests.build/Debug/sqlTests.build/Objects-normal/x86_64/sqlTests.LinkFileList -mmacosx-version-min=10.6 -lmysqlclient -lm -lz -lmysqlclient -lmysqlclient -o /Users/nathanhoellein/Documents/Obj-CProjects/mySqlTests/sqlTests/sqlTests/build/Debug/sqlTests1#
+

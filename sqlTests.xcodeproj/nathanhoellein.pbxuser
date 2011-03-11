@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B8EDC6871329372100ED3014 /* sqlTests */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* sqlTests */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* sqlTests */,
+		);
+		breakpoints = (
+			B8EDC933132A8DC000ED3014 /* main.c:155 */,
+		);
+		codeSenseManager = B8EDC6941329373600ED3014 /* Code sense */;
+		executables = (
+			B8EDC6871329372100ED3014 /* sqlTests */,
+		);
+		expressions = (
+			bind,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					236,
+					20,
+					236,
+					236,
+					236,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					324,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 321558192;
+			PBXWorkspaceStateSaveDate = 321558192;
+		};
+		perUserProjectItems = {
+			B8EDC946132A96A900ED3014 = B8EDC946132A96A900ED3014 /* PBXTextBookmark */;
+			B8EDC947132A96A900ED3014 = B8EDC947132A96A900ED3014 /* PBXTextBookmark */;
+			B8EDC949132A96A900ED3014 = B8EDC949132A96A900ED3014 /* PBXTextBookmark */;
+			B8EDC953132A96C300ED3014 /* PBXTextBookmark */ = B8EDC953132A96C300ED3014 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B8EDC6931329373600ED3014 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.c */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2587}}";
+			sepNavSelRange = "{4682, 0}";
+			sepNavVisRange = "{3813, 672}";
+			sepNavWindowFrame = "{{15, 4}, {750, 774}}";
+		};
+	};
+	8DD76FA90486AB0100D96B5E /* sqlTests */ = {
+		activeExec = 0;
+		executables = (
+			B8EDC6871329372100ED3014 /* sqlTests */,
+		);
+	};
+	B8EDC6871329372100ED3014 /* sqlTests */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = sqlTests;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	B8EDC6931329373600ED3014 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B8EDC6941329373600ED3014 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B8EDC69B132937CB00ED3014 /* my_list.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 646}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1457}";
+			sepNavWindowFrame = "{{15, 4}, {750, 774}}";
+		};
+	};
+	B8EDC69D132937CB00ED3014 /* mysql_time.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 728}}";
+			sepNavSelRange = "{2054, 14}";
+			sepNavVisRange = "{230, 1867}";
+			sepNavWindowFrame = "{{15, 4}, {750, 774}}";
+		};
+	};
+	B8EDC69F132937CB00ED3014 /* mysql.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 9139}}";
+			sepNavSelRange = "{25117, 48}";
+			sepNavVisRange = "{24857, 2725}";
+			sepNavWindowFrame = "{{15, 4}, {750, 774}}";
+		};
+	};
+	B8EDC809132A611800ED3014 /* errmsg.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 1495}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1719}";
+			sepNavWindowFrame = "{{15, 4}, {750, 774}}";
+		};
+	};
+	B8EDC933132A8DC000ED3014 /* main.c:155 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 08FB7796FE84155DC02AAC07 /* main.c */;
+		functionName = "main()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 155;
+		location = sqlTests;
+		modificationTime = 321556078.623917;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B8EDC946132A96A900ED3014 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 167";
+		rLen = 0;
+		rLoc = 4682;
+		rType = 0;
+		vrLen = 1405;
+		vrLoc = 3584;
+	};
+	B8EDC947132A96A900ED3014 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8EDC948132A96A900ED3014 /* setup git PATH for non-terminal programs.sh */;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+		rType = 0;
+	};
+	B8EDC948132A96A900ED3014 /* setup git PATH for non-terminal programs.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = "setup git PATH for non-terminal programs.sh";
+		path = "/Volumes/Git 1.7.4.1 i386 Leopard/setup git PATH for non-terminal programs.sh";
+		sourceTree = "<absolute>";
+	};
+	B8EDC949132A96A900ED3014 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8EDC94A132A96A900ED3014 /* setup git PATH for non-terminal programs.sh */;
+		name = "setup git PATH for non-terminal programs.sh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 953;
+		vrLoc = 0;
+	};
+	B8EDC94A132A96A900ED3014 /* setup git PATH for non-terminal programs.sh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.sh;
+		name = "setup git PATH for non-terminal programs.sh";
+		path = "/Volumes/Git 1.7.4.1 i386 Leopard/setup git PATH for non-terminal programs.sh";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1012, 520}}";
+			sepNavSelRange = "{224, 1}";
+			sepNavVisRange = "{0, 953}";
+		};
+	};
+	B8EDC953132A96C300ED3014 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8EDC94A132A96A900ED3014 /* setup git PATH for non-terminal programs.sh */;
+		name = "setup git PATH for non-terminal programs.sh: 11";
+		rLen = 1;
+		rLoc = 224;
+		rType = 0;
+		vrLen = 953;
+		vrLoc = 0;
+	};
+}
