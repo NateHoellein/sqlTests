@@ -9,6 +9,11 @@
 #define CEMETARY 100
 #define COUNTRYORIGIN 50
 
+#define HOST "localhost"
+#define ID "Nate"
+#define PASSWORD "Kelly123"
+#define DEFAULTDB "FamilyHistory"
+
 typedef struct family_person {
 	char FirstName[FIRSTNAMESIZE];
 	char LastName[LASTNAMESIZE];

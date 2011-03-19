@@ -2,22 +2,135 @@
 #include "mysql.h"
 #include "errmsg.h"
 
+
+int insertPerson(Person *myperson) {
+	
+	MYSQL mysql;
+	
+	mysql_init(&mysql);
+	
+	mysql_options(&mysql, MYSQL_READ_DEFAULT_GROUP, "FamilyHistory");
+	
+	if (!mysql_real_connect(&mysql,HOST,ID,PASSWORD,DEFAULTDB,0,NULL,0))
+	{
+		printf("Failed to connect to database: Error: %s\n", mysql_error(&mysql));
+	}
+	
+	const char *query = "Insert into Person (FirstName,LastName,born,died,Cemetery,countryorigin) VALUES(?,?,?,?,?,?)";
+	
+	MYSQL_STMT *mystatement;
+	mystatement = mysql_stmt_init(&mysql);
+	
+	if(!mystatement)
+	{
+		printf("mysql_stmt_init failed: %d\r\n",mysql_errno(&mysql));
+	}
+	
+	int statementPrepare = mysql_stmt_prepare(mystatement, query,strlen(query));
+	
+	if(statementPrepare)
+	{
+		printf("mysql_stmt_prepare failed: %s\r\nQuery: %s",mysql_error(&mysql),query);	
+	}
+	
+	char firstname[25];
+	char lastname[25];
+	MYSQL_TIME born;
+	MYSQL_TIME died;
+	char cemetary[100];
+	char countryorigin[50];
+	
+	unsigned long length[6];
+	my_bool is_null[6];
+	my_bool error[6];
+	
+	MYSQL_BIND bind[6];
+	
+	memset(bind,0,sizeof(bind));
+	
+	bind[0].buffer_type = MYSQL_TYPE_STRING;
+	bind[0].buffer = (char *)firstname;
+	bind[0].buffer_length = 25;
+	bind[0].is_null = 0;
+	bind[0].length = &length[0];
+	
+	bind[1].buffer_type = MYSQL_TYPE_STRING;
+	bind[1].buffer = (char *)lastname;
+	bind[1].buffer_length = 25;
+	bind[1].is_null = 0;
+	bind[1].length = &length[1];
+	
+	bind[2].buffer_type = MYSQL_TYPE_DATE;
+	bind[2].buffer = (char *)&born;
+	bind[2].is_null = 0;
+	bind[2].length = &length[2];
+	
+	bind[3].buffer_type = MYSQL_TYPE_DATE;
+	bind[3].buffer = (char *)&died;
+	bind[3].is_null = &is_null[3];
+	bind[3].error = &error[3];
+	bind[3].length = &length[3];
+	
+	bind[4].buffer_type = MYSQL_TYPE_STRING;
+	bind[4].buffer = (char *)cemetary;
+	bind[4].buffer_length = 100;
+	bind[4].is_null = 0;
+	bind[4].length = &length[4];
+	
+	bind[5].buffer_type = MYSQL_TYPE_STRING;
+	bind[5].buffer = (char *)countryorigin;
+	bind[5].buffer_length = 50;
+	bind[5].is_null = 0;
+	bind[5].length = &length[5];
+	
+	printf("binding\r\n");
+	if (mysql_stmt_bind_param(mystatement, bind))
+	{
+		printf("mysql_stmt_bind_result() failed [%d]  %s\n", mysql_stmt_errno(mystatement), mysql_stmt_error(mystatement));
+	}
+
+	strncpy(firstname,myperson->FirstName,strlen(myperson->FirstName));
+	length[0] = strlen(myperson->FirstName);
+	strncpy(lastname,myperson->LastName,strlen(myperson->LastName));
+	length[1] = strlen(myperson->LastName);
+	born.year = myperson->born.tm_year;
+	born.month = myperson->born.tm_mon;
+	born.day = myperson->born.tm_mday;
+	died.year = myperson->died.tm_year;
+	died.month = myperson->died.tm_mon;
+	died.day = myperson->died.tm_mday;
+	strncpy(cemetary,myperson->Cemetary,strlen(myperson->Cemetary));
+	length[4] = strlen(myperson->Cemetary);
+	strncpy(countryorigin,myperson->countryOrigin,strlen(myperson->countryOrigin));
+	length[5] = strlen(myperson->countryOrigin);
+	
+	if (mysql_stmt_execute(mystatement))
+	{
+		printf(" mysql_stmt_execute(), failed  %s\n", mysql_stmt_error(mystatement));
+	}
+	
+	int affected_rows= mysql_stmt_affected_rows(mystatement);
+	
+	if(affected_rows != 1)
+	{
+		printf("Error inserting new row: %s\r\n",mysql_stmt_error(mystatement));
+	}
+			   
+	mysql_stmt_close(mystatement);
+	mysql_close(&mysql);
+	return 0;
+}
 void getPersonById(const char *personId, Person *myperson) {
 		
 	MYSQL mysql;
 	
 	mysql_init(&mysql);
 	
-	mysql_options(&mysql,MYSQL_READ_DEFAULT_GROUP,"your_prog_name");
-	if (!mysql_real_connect(&mysql,"localhost","Nate","Kelly123","FamilyHistory",0,NULL,0))
+	mysql_options(&mysql,MYSQL_READ_DEFAULT_GROUP,"FamilyHistory");
+	if (!mysql_real_connect(&mysql,HOST,ID,PASSWORD,DEFAULTDB,0,NULL,0))
 	{
 		printf("Failed to connect to database: Error: %s\n", mysql_error(&mysql));
 	}
-	
-	const char *info;
-	info = mysql_get_server_info(&mysql);
-	
-	printf("server info: %s\r\n",info);
 	
 	const char *query = "Select FirstName, LastName, born, died, Cemetery, fatherid, motherid, countryorigin, infoid, spouseid from Person where id =";
 	
@@ -42,7 +155,6 @@ void getPersonById(const char *personId, Person *myperson) {
 	if(statementPrepare)
 	{
 		printf("mysql_stmt_prepare failed: %s\r\nQuery: %s",mysql_error(&mysql),newquery);	
-		return;
 	}
 	
 	MYSQL_RES     *prepare_meta_result;

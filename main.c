@@ -23,7 +23,30 @@ int main (int argc, const char * argv[]) {
 	printf("spouseid: %d \n", person.spouseId);
 	printf("\r\n");
 	
-    return 0;
+	
+	Person newPerson;
+	memset(&newPerson,0,sizeof(Person));
+	
+	struct tm mborn;
+	mborn.tm_year = 1973;
+	mborn.tm_mon = 11;
+	mborn.tm_mday = 9;
+	
+	struct tm mdied;
+	mdied.tm_year = 0;
+	mdied.tm_mon = 0;
+	mdied.tm_mday = 0;
+	
+	strncpy(newPerson.FirstName,"Andy",strlen("Andy"));
+	strncpy(newPerson.LastName,"Hoellein",strlen("Hoellein"));
+	newPerson.born = mborn;
+	newPerson.died = mdied;
+	strncpy(newPerson.Cemetary,"",0);
+	strncpy(newPerson.countryOrigin,"United Stated",strlen("United States"));
+	
+	int result = insertPerson(&newPerson);
+	printf("Inserted %d rows.\r\n",result);
+    return result;
 }
 
 void basicSearch()
